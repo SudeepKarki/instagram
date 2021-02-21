@@ -1,0 +1,20 @@
+.post-list {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 152px;
+  overflow-y: scroll;
+  align-items: baseline;
+}
+.post-list a {
+  border: 1px solid #ccc;
+  color: #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: calc(50% - 30px);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
