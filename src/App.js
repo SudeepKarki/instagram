@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <BrowserRouter basename="/instagram">
+    <BrowserRouter>
       <div className="App container">
         <Instagram />
       </div>
